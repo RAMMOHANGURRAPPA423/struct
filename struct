@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+struct student{
+    int a;
+    char b;
+    float c;
+}var;
+void main(){
+    printf("%zu\n",sizeof(var));
+}
